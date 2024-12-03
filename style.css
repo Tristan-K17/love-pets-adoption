@@ -10,7 +10,7 @@ body {
 header.hero {
     position: relative;
     height: 100vh;
-    background: #ddd url('hero-placeholder.jpg') no-repeat center center/cover;
+    background: #ddd url('jellybean.jpg') no-repeat center center/cover;
     text-align: center;
     color: white;
     display: flex;
