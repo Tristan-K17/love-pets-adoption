@@ -109,6 +109,9 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+
 /* About Section */
 .about-section {
     background-color: #f4f4f4;
@@ -129,4 +132,64 @@ footer {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.1rem;
+}
+
+
+
+
+/* Volunteer Section */
+.volunteer-section {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.volunteer-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.volunteer-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #555;
 }
