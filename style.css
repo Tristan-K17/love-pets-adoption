@@ -10,15 +10,23 @@ body {
 header.hero {
     position: relative;
     height: 100vh;
-    background: #ddd url('jellybean.jpg') no-repeat center center/cover;
+    background: #ddd url('hero-placeholder.jpg') no-repeat center center/cover;
     text-align: center;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s forwards; /* Animation */
 }
 
+/* Add fade-in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
 .hero-text h1 {
     font-size: 3rem;
     margin: 0;
@@ -65,19 +73,16 @@ nav a {
     gap: 20px;
 }
 
-.grid-item {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
 .grid-item img {
     width: 100%;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effect */
 }
 
+.grid-item img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
 .info-section {
     padding: 40px 20px;
     text-align: center;
