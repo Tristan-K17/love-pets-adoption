@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Loved Pets Animal Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text">
+            <h1>Donate to Loved Pets Animal Shelter</h1>
+            <p>Your generous support helps provide care for animals in need.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="donate" class="info-section">
+            <h2>Your Donation Makes a Difference</h2>
+            <p>Every donation goes directly to caring for the animals we rescue. Whether it's food, medical care, or simply providing a safe and loving environment, your contribution helps us make a difference in their lives.</p>
+
+            <h3>How much would you like to donate?</h3>
+            <form action="https://www.yourpaymentgateway.com" method="post">
+                <label for="amount">Donation Amount ($):</label>
+                <input type="number" id="amount" name="amount" min="5" required>
+
+                <h3>Choose a donation type</h3>
+                <label for="one-time">One-time donation</label>
+                <input type="radio" id="one-time" name="donation-type" value="one-time" checked>
+                <label for="monthly">Monthly donation</label>
+                <input type="radio" id="monthly" name="donation-type" value="monthly">
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Loved Pets Animal Shelter</p>
+            <p>Contact: josie@welovepets.com | (xxx) xxx-xxxx</p>
+        </div>
+    </footer>
+</body>
+</html>
