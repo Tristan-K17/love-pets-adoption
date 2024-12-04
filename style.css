@@ -109,3 +109,24 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* About Section */
+.about-section {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
